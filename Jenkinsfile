@@ -40,7 +40,7 @@ pipeline {
                     echo "Starting new containers..."
                     docker-compose up -d --build
                     
-                    echo "Deployment completed successfully."
+                    echo "Deployment is completed successfully."
                 '''
             }
         }
